@@ -4,7 +4,15 @@
 # Example:
 ############
 repositories:
-  examples:
+  nebolab_basic_setup:
     type: git
-    url: https://github.com/ros2/examples.git
-    version: humble
+    url: git@github.com:mwsatman/nebolab_basic_setup.git
+    version: ros2_pkg
+  nebolab_interfaces:
+    type: git
+    url: git@github.com:Silviis/nebolab_interfaces.git
+    version: master
+  ros2_vicon_receiver:
+    type: git
+    url: git@github.com:OPT4SMART/ros2-vicon-receiver.git
+    version: master

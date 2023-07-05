@@ -15,7 +15,7 @@ RUN useradd -m $USERNAME && \
         usermod  --uid 1000 $USERNAME && \
         groupmod --gid 1000 $USERNAME
 
-RUN apt update -y && apt install nano net-tools zsh git curl openssh-server -y
+RUN apt update -y && apt install nano net-tools zsh git curl openssh-server python3-cvxopt -y
 RUN runuser -l $USERNAME -c 'sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended'
 
 # ZSH
