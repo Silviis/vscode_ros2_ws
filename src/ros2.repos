@@ -12,7 +12,11 @@ repositories:
     type: git
     url: git@github.com:Silviis/nebolab_interfaces.git
     version: master
-  ros2_vicon_receiver:
+  ros2-vicon-receiver:
     type: git
-    url: git@github.com:OPT4SMART/ros2-vicon-receiver.git
-    version: master
+    url: git@github.com:Silviis/ros2-vicon-receiver.git
+    version: humble
+  turtlebot3:
+    type: git
+    url: git@github.com:Silviis/turtlebot3.git
+    version: humble-devel
