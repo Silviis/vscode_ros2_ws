@@ -8,10 +8,6 @@ repositories:
     type: git
     url: git@github.com:mwsatman/nebolab_basic_setup.git
     version: ros2_pkg
-  nebolab_interfaces:
-    type: git
-    url: git@github.com:Silviis/nebolab_interfaces.git
-    version: master
   ros2-vicon-receiver:
     type: git
     url: git@github.com:Silviis/ros2-vicon-receiver.git
@@ -20,3 +16,7 @@ repositories:
     type: git
     url: git@github.com:Silviis/turtlebot3.git
     version: humble-devel
+  ccta2024_scalable:
+    type: git
+    url: git@github.com:Silviis/ccta2024_scalable.git
+    version: main
