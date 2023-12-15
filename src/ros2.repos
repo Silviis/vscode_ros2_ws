@@ -16,7 +16,7 @@ repositories:
     type: git
     url: git@github.com:Silviis/turtlebot3.git
     version: humble-devel
-  ccta2024_scalable:
+  nebolab_gazebo_sim:
     type: git
-    url: git@github.com:Silviis/ccta2024_scalable.git
+    url: git@github.com:Silviis/nebolab_gazebo_sim.git
     version: main
